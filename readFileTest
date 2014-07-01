@@ -1,0 +1,3 @@
+input_file = open("E:\文档\活动项目\计算方法代码.txt","r")
+s= input_file.read()
+print s

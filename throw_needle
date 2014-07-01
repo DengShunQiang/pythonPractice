@@ -1,0 +1,42 @@
+import random
+import math
+class needle():
+	"""’Î"""
+	fromY = 0
+	length = 5
+	angle = 0
+	endY = 0
+	def _init_(self):
+		self.fromY = random.randomint(0,101)
+		self.angle = random.randomint(0,3)*math.pi/180
+		self.endY = self.fromY+self.length*math.sin(self.angle)
+
+def isIntersect(needle):
+        	a = needle.fromY
+        	b = needle.endY
+       	       	print a+"\n"
+       	       	print b
+        	if(a<=10) and (b>=10):
+                        return false
+        	elif(a<=20 and b>=20):
+                        return false
+        	elif(a<=30 and b>=30):
+                        return false
+       	       	elif(a<=40 and b>=40):
+               	       	return false
+        	elif(a<=50 and b>=50):
+                        return false
+        	elif(a<=60 and b>=60):
+                        return false
+        	elif(a=<70 and b>=70):
+                        return false
+       	       	elif(a=<80 and b>=80):
+               	       	return false
+       	       	elif(a=<90 and b>=90):
+               	       	return false
+        	elif(a<=100 and b>=100):
+                        return false
+        	else:
+                        return true
+
+

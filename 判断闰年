@@ -1,0 +1,8 @@
+Year= raw_input("请输入年份")
+def judgeYear(Year):
+if	(int)Year%400==0:
+print	Year+"年是闰年"
+elif	(int)Year%4==0:
+print	Year+"年是闰年"
+else:
+message = Year+"年不是闰年"
